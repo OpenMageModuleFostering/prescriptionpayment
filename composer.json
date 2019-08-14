@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/PrescriptionPayment",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "This extension enables the shop owner to let the customer select which items shall be paid via a prescription.",
+    "authors": [
+    {
+        "name": "Holger L\u00f6sken",
+        "email": "post@codedge.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>PrescriptionPayment</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension enables the shop owner to let the customer select which items shall be paid via a prescription.</summary>
+    <description>This is a payment method extension for the ecommerce platform Magento. Use it preferably if you maintain a shop for medical things where it should be possible to pay via a prescription.&#xD;
+&#xD;
+It enables the shop owner to let the customer select which items shall be paid via a prescription. Those items value will be set to 0.00. All other items can be paid via other payment methods (f. ex. PayPal).</description>
+    <notes>Stable version. Please check https://github.com/codedge/prescriptionpayment for updates</notes>
+    <authors><author><name>Holger L&#xF6;sken</name><user>cod2edge</user><email>post@codedge.de</email></author></authors>
+    <date>2013-05-12</date>
+    <time>19:43:41</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="prescriptionpayment"><file name="notifications.phtml" hash="3bc8c15a8be0a7beb42578ea3747b3f2"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="template"><dir name="prescriptionpayment"><file name="choose_payment.phtml" hash="293339e56babbfbfa6440b9f5c2aeeed"/><dir name="item"><file name="default.phtml" hash="5fd5f616a714102c5fc55ffb7fa4ae37"/></dir><file name="onepage_link.phtml" hash="80beb697df60eae9a012561553354bdd"/><file name="selectitems.phtml" hash="4d6b8bcf0db5e2b199defb8c9ad49703"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="de_DE"><file name="Ce_PrescriptionPayment.csv" hash="5deab60afac98eb4eb4893d056dc24dd"/></dir></target><target name="mageetc"><dir name="modules"><file name="Ce_PrescriptionPayment.xml" hash="00be1ebba9d1706e92c55f18eea40e70"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.4.9</max></php></required></dependencies>
+</package>
